@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+
+#enderecoTelaCadastro {
+	font-family: Times new roman;
+	text-align: center;
+	color: #707070;
+}
+
+.textoPrincipalMenu {
+	font-style: italic;
+	font-size: 45px;
+	color: #707070;
+	text-align: center;
+	font-family: Times new roman, fantasy, sans-serif;
+	text-shadow: 3px 3px 2px gray;
+}
+
+.textoPrincipalPaginas {
+	font-style: italic;
+	color: #707070;
+	text-align: center;
+	font-family: Times new roman, fantasy, sans-serif;
+	text-shadow: 1px 1px 3px gray;
+}
+
+.formatacaoLinksMenu a {
+	transition: background 2s ease-out 0.1s,
+				color 2s ease-out 0.1s;
+	color: #686868;
+	background: #E8E8E8;
+	font-style: oblique;
+	font: bold;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #ccc;
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	-webkit-border-radius: 8px; /*Para Safari e chrome8*/
+	-moz-border-radius: 8px; /*Para Firefox */
+	border-radius: 8px;
+}
+
+.formatacaoLinksMenu a:hover {
+	background: #B8B8B8;
+	text-decoration: none;
+	color: black;
+}
+
+.formatacaoLinksMenu a:ACTIVE {
+	color: #C8C8C8;
+}
+
+.formatacaoLinksMenu a:VISITED {
+	color: #686868;
+}
+
+
+.listas {
+	margin: 10px auto;
+	width: 70%;
+	border: 1px solid #000;
+	font-family: Times new roman, Verdana, sans-serif;
+	font-size: 13px;
+}
+
+.listas td,th {
+	padding: 5px;
+	text-align: center;
+}
+
+.listas thead tr:nth-child(1) {
+	background: #02273b;
+	color: #fff
+	
+}
+
+.listas tbody tr:nth-child(odd) {
+	background: #eee;
+}
+
+.listas tbody tr:hover {
+	background: #B8B8B8;
+	color: blue;
+}
+
+.itemQuantidadeBaixa{
+    	font-family: Times new roman;
+    	font-style: italic;
+    	font-weight: bold;
+    	color: red;
+    }
+    
+    .formath4{
+    	text-align: center;
+    	color: red;
+    }
+

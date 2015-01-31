@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	<img src="/imagens/logo2unidos.png">
+}
+
+#form {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background: #f0f0f0;
+    overflow:auto;
+    color: #666;
+ 
+    /* Border style */
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+ 
+    /* Border Shadow */
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+
+#form fieldset {
+	border-color: #707070;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 0;
+}
+
+#form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#form textarea {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 60px;
+	border-radius: 10px;
+}
+
+#form label input {
+	width: 450px;
+	border-radius: 10px;
+	padding: 6px;
+}
+
+#form select {
+	width: 450px;
+	border-radius: 10px;
+	padding: 6px;
+}
+
+.botao {
+	border-radius: 10px;
+	border: 1px solid gray;
+	background: #707070;
+	color: white;
+	padding: 6px;
+	width: 100px;
+}
+
+.botao:HOVER {
+	background: #F0F0F0;
+	color: #707070;
+}

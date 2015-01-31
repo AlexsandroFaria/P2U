@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+#contactForm {
+ 
+    width: 600px;
+    padding: 20px;
+    background: #f0f0f0;
+    overflow:auto;
+ 	margin-left: auto;
+	margin-right: auto;
+	
+ 
+    /* Border style */
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+ 
+    /* Border Shadow */
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+h5{
+	color: red;
+}
+
+label {
+    font-family: Arial, Verdana;
+    text-shadow: 2px 2px 2px #ccc;
+    display: block;
+    float: left; margin-right:15px;
+    font-weight: bold;
+    margin-right:10px;
+    text-align: right;
+    width: 150px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #666;
+}
+
+.input{
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 390px;
+    color: #797979;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+    margin-bottom: 3px;
+}
+
+.inputArea{
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 450px;
+    color: #797979;
+   	
+	margin-left: 50px;
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+fieldset{
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 1px 1px 1px #cccccc;
+    font-weight: bold;
+    color: #333; 
+}
+
+.botao {
+	transition: background 2s ease 0.1s,
+				color 2s ease 0.1s;
+	border-radius: 10px;
+	border: 1px solid gray;
+	background: #707070;
+	color: white;
+	padding: 6px;
+	width: none;
+}
+
+.botao:HOVER {
+	background: #F0F0F0;
+	color: #707070;
+}
+
+.hint{
+	display: none;	
+}
+
+.field:hover .hint {
+    position: absolute;
+    display: block;
+    margin: -40px 5px 5px 570px;
+    color: #FFFFFF;
+    padding: 7px 10px;
+    background: rgba(0, 0, 0, 0.6);
+ 
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    }
+    
+   
+    
